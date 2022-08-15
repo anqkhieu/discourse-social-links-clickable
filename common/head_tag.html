@@ -55,7 +55,9 @@
             icon: 'envelope',
             link: {
                 type: 'userField',
-                value: settings.email_custom_field_name
+                value: settings.email_custom_field_name,
+                base: 'mailto:', 
+                baseregex: '/^\S+@\S+\.\S+$/'
             }
         },
         {
