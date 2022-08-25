@@ -11,9 +11,11 @@ bandcamp_custom_field_name: 'Bandcamp'
 email_custom_field_name: 'Email'
 tiktok_custom_field_name: 'Tiktok'
 telegram_custom_field_name: 'Telegram'
+artstation_custom_field_name: 'ArtStation'
+reddit_custom_field_name: 'Reddit'
 icon_color: 'black'
 
 _icon:
-  default: "user|globe|fab-twitter|fab-facebook-f|fab-linkedin-in|building|fab-instagram|fab-youtube|fab-discord|fab-steam|fab-twitch|fab-bandcamp|fab-spotify|fab-soundcloud|envelope|fab-tiktok|fab-telegram"
+  default: "user|globe|fab-twitter|fab-facebook-f|fab-linkedin-in|building|fab-instagram|fab-youtube|fab-discord|fab-steam|fab-twitch|fab-bandcamp|fab-spotify|fab-soundcloud|envelope|fab-tiktok|fab-telegram|fab-artstation|fab-reddit-alien"
   type: list
   description: "setting necessary to load the appropriate icons"
