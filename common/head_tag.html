@@ -125,11 +125,21 @@
             icon: 'fa-artstation',
             link: {
                 type: 'userField',
-                value: settings.telegram_custom_field_name,
+                value: settings.artstation_custom_field_name,
                 base: 'https://www.artstation.com/',
                 baseregex: '^http(s)?://(www.)?artstation.com/'
             }
-        }        
+        },
+        {
+            name: 'Reddit',
+            icon: 'fa-reddit-alien',
+            link: {
+                type: 'userField',
+                value: settings.reddit_custom_field_name,
+                base: 'https://www.reddit.com/user/',
+                baseregex: '^http(s)?://(www.)?https://www.reddit.com/user/'
+            }
+        }   
     ]
 
     fieldOptions.userIconicUserFields = fieldOptions.iconicUserFields
