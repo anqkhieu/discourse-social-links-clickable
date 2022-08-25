@@ -29,6 +29,8 @@ bandcamp_custom_field_name: 'Bandcamp'
 email_custom_field_name: 'Email'
 tiktok_custom_field_name: 'Tiktok'
 telegram_custom_field_name: 'Telegram'
+artstation_custom_field_name: 'ArtStatopm'
+reddit_custom_field_name: 'Reddit'
 ```
 You can also customize the color of the icons.
 ```
