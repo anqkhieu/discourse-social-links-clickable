@@ -1,16 +1,16 @@
  .iconic-user-fields {
+  padding-top: 0.8em;
   a {
       margin-right: 5px;
   }
   .fa {
       font-size: 1.2em;
-   color: #{$icon-color};
+      color: #{$icon-color};
   }
   .fa.d-icon.svg-icon.svg-string {
       margin-left: 0px;
   }
 }
-
 
 #user-card {
   .card-content {
